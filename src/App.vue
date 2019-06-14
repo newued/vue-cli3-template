@@ -10,13 +10,7 @@
     <router-view/>
   </div>
 </template>
-<script>
-export default {
-
-}
-</script>
-
-<style>
+<style lang="scss" scoped>
 html,body{padding:0;margin:0;}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

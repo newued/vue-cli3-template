@@ -13,6 +13,14 @@ export const routerList = [
     children: []
   },
   {
+    path:'/index',
+    name:'index',
+    component: () => import( /* webpackChunkName: "errorPages" */ '@/views/Index'),
+    meta: {
+      title: '页面出错'
+    },
+  },
+  {
     path:'/netErrorPage',
     name:'netErrorPage',
     component: () => import( /* webpackChunkName: "errorPages" */ '@/views/netErrorPage'),
