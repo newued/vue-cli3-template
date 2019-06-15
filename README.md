@@ -32,7 +32,6 @@
       3可通过 node 命令行参数或者webpack.json中scripts属性，动态地给 webpack 添加入口来实现是否打包 mock 工具及数据
       */
       Mock.mock('/user/logout', 'get',resFunc)
-     
 
       ```   
   
